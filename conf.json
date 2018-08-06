@@ -1,0 +1,12 @@
+{
+    "Spotify": {
+        "AuthURL": "https://accounts.spotify.com/authorize",
+        "AccessURL": "https://accounts.spotify.com/api/token",
+        "ClientId": "Xxxxxxxxxx",
+        "SecretId": "Xxxxxxxxxx",
+        "CallbackURL": "http://localhost:9090/callback_spotify",
+        "Scopes": [
+            "user-read-currently-playing"
+        ]
+    }
+}
